@@ -112,7 +112,7 @@
 }
 
 .headerpic {
-    height: 54.9vh;
+    height: 64vh;
     display: flex;
     justify-content: center;
     position: relative;
@@ -121,4 +121,22 @@
 .headerpicture {
 position: absolute;
 bottom: 0;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    font-family: 'fira sans', sans-serif;
+}
+
+.mainheader {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 35px;
+
+}
+
+.maintext {
+  
 }
