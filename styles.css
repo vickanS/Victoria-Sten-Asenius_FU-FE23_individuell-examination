@@ -41,6 +41,14 @@
     letter-spacing: 0,204px;
 }
 
+.header-nav-a1 {
+    text-decoration: none;
+    color: #222;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0,204px;
+}
+
 .headerbtn button {
     width: 146px;
     height: 40px;
