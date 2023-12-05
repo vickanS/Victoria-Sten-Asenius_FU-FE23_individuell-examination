@@ -23,6 +23,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 0 15px;
 }
 
 .header-nav ul {
@@ -112,7 +113,7 @@
 }
 
 .headerpic {
-    height: 64vh;
+    height: 63vh;
     display: flex;
     justify-content: center;
     position: relative;
