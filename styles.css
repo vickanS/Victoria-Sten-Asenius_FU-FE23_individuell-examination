@@ -134,9 +134,10 @@ main {
    justify-content: center;
    align-items: center;
    padding-top: 35px;
-
 }
 
 .maintext {
-  
+    text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
 }
