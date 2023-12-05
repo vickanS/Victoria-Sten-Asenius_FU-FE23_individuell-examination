@@ -119,8 +119,8 @@
 }
 
 .headerpicture {
-position: absolute;
-bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 main {
@@ -137,7 +137,8 @@ main {
 }
 
 .maintext {
-    text-align: center;
-  font-weight: 700;
-  font-size: 2rem;
+   text-align: center;
+   font-weight: 700;
+   font-size: 2rem;
+   color: #222;
 }
