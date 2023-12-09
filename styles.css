@@ -22,100 +22,99 @@ body {
     justify-content: space-between;
     background-color: #EEE;
     font-family: 'fira sans', sans-serif;
-}
-
-.navbar{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px;
-}
-
-.header-nav ul {
-    width: 553px;
-    height: 16px;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-
-.header-nav-a {
-    text-decoration: none;
-    color: #999;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0,204px;
-}
-
-.header-nav-a1 {
-    text-decoration: none;
-    color: #222;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0,204px;
-}
-
-.headerbtn button {
-    width: 146px;
-    height: 40px;
-    border-radius: 3px;
-    border: 1px solid black;
-    font-family: 'fira sans', sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    letter-spacing: 0.204px;
-}
-
-.headermain {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 15%;
-    padding-top: 150px;
-}
-
-.headertext {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 73px;
-    font-family: 'fira sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-.header-ptext {
-    color: rgba(34, 34, 34, 0.80);
-    font-family: 'fira sans', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    width: 554px;
-    height: 41px;
-    line-height: 150%;
-    padding-bottom: 100px;
-    text-align: center;
-}
-
-.header-btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-}
-
-.headerbtn {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    align-items: center;
-    border-radius: 6px;
-    background: #222;
-    color: #fff;
-    font-family: 'fira sans', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    
+    .header-nav ul {
+        width: 553px;
+        height: 16px;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    
+    .header-nav-a {
+        text-decoration: none;
+        color: #999;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0,204px;
+    }
+    
+    .header-nav-a1 {
+        text-decoration: none;
+        color: #222;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0,204px;
+    }
+    
+    .headerbtn button {
+        width: 146px;
+        height: 40px;
+        border-radius: 3px;
+        border: 1px solid black;
+        font-family: 'fira sans', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0.204px;
+    }
+    
+    .headermain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        padding-top: 150px;
+    }
+    
+    .headertext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 73px;
+        font-family: 'fira sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .header-ptext {
+        color: rgba(34, 34, 34, 0.80);
+        font-family: 'fira sans', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        width: 554px;
+        height: 41px;
+        line-height: 150%;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    
+    .header-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .headerbtn {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        align-items: center;
+        border-radius: 6px;
+        background: #222;
+        color: #fff;
+        font-family: 'fira sans', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
     line-height: 150%;
     width: 134px;
     height: 40px;
@@ -132,6 +131,7 @@ body {
     position: absolute;
     bottom: 0;
 }
+}
 
 main {
     max-height: 100%;
@@ -141,18 +141,17 @@ main {
     min-width: 1200px;
     margin: 0 auto;
     font-family: 'fira sans', sans-serif;
-}
-
-.mainheader {
-   display: flex;
-   justify-content: center;
+    
+    .mainheader {
+        display: flex;
+        justify-content: center;
    align-items: center;
    padding-top: 3rem;
 }
 
 .maintext {
-   text-align: center;
-   font-weight: 700;
+    text-align: center;
+    font-weight: 700;
    font-size: 2rem;
    color: #222;
 }
@@ -282,6 +281,7 @@ top: 60px;
     border-radius: 3px;
     border:  1px solid rgba(255, 255, 255, 0.60);
 }
+}
 
 .footer {
     margin-top: 350px;
@@ -290,45 +290,45 @@ top: 60px;
     background-color: #222;
     width: 100%;
     height: 556px;
-}
-.content {
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-left: 1200px;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 434px;
-    height: 417px;
-    background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
-    padding-left: 15px;
-    font-family: 'fira sans', sans-serif;
-}
-
-.infohead {
-    color: #222; 
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-.subheader-info {
-    color: rgba(34, 34, 34, 0.80); 
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1200px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 434px;
+        height: 417px;
+        background-color: #fff;
+        border-radius: 3px;
+        box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+        padding-left: 15px;
+        font-family: 'fira sans', sans-serif;
+    }
+    
+    .infohead {
+        color: #222; 
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .subheader-info {
+        color: rgba(34, 34, 34, 0.80); 
     line-height: 3rem;
     font-size: 1rem;
     font-weight: 700;
 }
 
 .infop {
-color: rgba(34, 34, 34, 0.60);
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
+    color: rgba(34, 34, 34, 0.60);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
 line-height: 150%;
+}
 }
 
 @media (max-width: 375px) {
