@@ -13,9 +13,10 @@ body {
 }
 
 .header {
-    padding-top: 20px;
+    padding: 20px 0 15px 15px;
+    /*padding-top: 20px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px;*/
     width: 100%;
     height: 714px;
     flex-direction: column;
@@ -290,6 +291,7 @@ top: 60px;
     background-color: #222;
     width: 100%;
     height: 556px;
+    
     .content {
         display: flex;
         flex-direction: column;
