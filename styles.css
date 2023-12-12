@@ -28,7 +28,7 @@ body {
         padding: 0 0.9375rem;
     }
 
-    .headerhidden {
+    .hidden-menu {
         display: none;
     }
     
@@ -121,22 +121,22 @@ body {
         align-items: center;
         gap: 1.5625rem;
     }
-    
-    .headerbtn {
+
+    .header-buttons {
         display: flex;
         justify-content: center;
         gap: 0.5rem;
         align-items: center;
         border-radius: 6px;
-        background: #222;
         color: #fff;
         font-family: 'fira sans', sans-serif;
         font-size: 1rem;
         font-weight: 500;
         width: 8.375rem;
         height: 40px;
+        background-color: black;
     }
-
+    
     .headerpic {
         height: 55vh;
         display: flex;
@@ -353,30 +353,43 @@ line-height: 150%;
     .wrapper {
         height: auto; /* Adjust height as needed for content */
     }
-}
-
-.header {
-    padding: 0.625rem 0.3125rem; /* Justera padding för att passa mindre skärmar */
-    height: auto; /* Använd 'auto' för att låta höjden anpassa sig efter innehållet */
-
+    
+    .header {
+        padding: 0.625rem 0.3125rem; /* Justera padding för att passa mindre skärmar */
+        height: auto; /* Använd 'auto' för att låta höjden anpassa sig efter innehållet */
+        
     /* Justera andra stilar för att passa mindre skärmar */
     /* Exempel: */
     justify-content: flex-start; /* Ändra till flex-start för att justera mellanrummen */
-}
+    }
 
-.headernavigation {
+    .header-nav {
     display: none;
-}
+    }
 
-.headerbtn button {
+    .headerbtn {
     display: none;
-    background-color: #EEE;
-}
+    }
 
-.headerhidden {
+    .hidden-menu {
     display: block;
-}
+    }
 
+    
+    .headermain {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .headertext {
+        max-width: 375px; 
+        margin: 0 auto; 
+        margin-bottom: 10px;
+        padding-top: 30px;
+        padding-left: 0px; 
+        padding-right: 5px;
+    }
+}
 
 
 /*@media (max-width: 375px) {
