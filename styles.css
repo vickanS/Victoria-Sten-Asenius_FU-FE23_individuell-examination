@@ -515,10 +515,6 @@ main {
         width: 343px;
     }
 
-    .infop {
-        
-    }
-
     .content {
         display: flex;
         justify-content: center;
