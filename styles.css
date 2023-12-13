@@ -379,6 +379,7 @@ main {
     }
 
     .hidden-menu {
+        padding-top: 7px;
         display: block;
     }
     
@@ -417,8 +418,8 @@ main {
     .smalcards {
         max-width: 375px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         gap: 0.5rem;
     }
 
@@ -433,23 +434,23 @@ main {
     }
 
     .smalcard1 {
-        width: 164px;
-        height: 230px
+        flex: 0 0 calc(25% - 0.5rem); 
+        height: auto; 
     }
 
     .smalcard2 {
-        width: 164px;
-        height: 230px
+        flex: 0 0 calc(25% - 0.5rem); 
+        height: auto; 
     }
 
     .smalcard3 {
-        width: 164px;
-        height: 230px
+        flex: 0 0 calc(25% - 0.5rem); 
+        height: auto; 
     }
 
     .smalcard4 {
-        width: 164px;
-        height: 230px
+        flex: 0 0 calc(25% - 0.5rem); 
+        height: auto; 
     }
 
     .bigcards {
