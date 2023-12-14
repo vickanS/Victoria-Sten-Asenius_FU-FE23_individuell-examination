@@ -146,7 +146,7 @@ body {
 }
 
 .headerpic {
-    height: 55vh;
+    height: 64vh;
     display: flex;
     justify-content: center;
     position: relative;
@@ -380,11 +380,16 @@ main {
         font-family: 'fira sans', sans-serif;
     }
 
+    .formfield {
+        display: flex;
+        flex-direction: column;
+    }
+
     .submit {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 4px;
+        padding: 4px;
     }
 
     .submit-button {
@@ -465,6 +470,10 @@ main {
         align-items: center;
         padding-top: 3rem;
         padding: auto;
+    }
+
+    .headerpic {
+        height: 20rem; 
     }
 
     .top-phone {
