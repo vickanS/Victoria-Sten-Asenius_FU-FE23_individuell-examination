@@ -324,7 +324,6 @@ main {
 
     .content {
         position: relative;
-        z-index: 1;
         display: block;
         flex-direction: column;
         justify-content: center;
@@ -397,6 +396,10 @@ main {
         display: none;
     }
 
+    .headernavigation {
+        margin-left: 50px;
+    }
+
     .headerbtn {
         display: none;
     }
@@ -404,6 +407,7 @@ main {
     .hidden-menu {
         padding-top: 7px;
         display: block;
+        margin-right: 20px;
     }
     
     .headermain {
