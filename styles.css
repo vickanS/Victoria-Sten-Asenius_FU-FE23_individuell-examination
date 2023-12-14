@@ -351,13 +351,15 @@ main {
     }
     
     .infohead {
+        display: flex;
         color: #222; 
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 700;
     }
     
     .subheader-info {
-        color: rgba(34, 34, 34, 0.80); 
+        color: rgba(34, 34, 34, 0.80);
+        display: flex;
         line-height: 3rem;
         font-size: 1rem;
         font-weight: 700;
@@ -369,6 +371,34 @@ main {
         font-style: normal;
         font-weight: 500;
         line-height: 150%;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'fira sans', sans-serif;
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4px;
+    }
+
+    .submit-button {
+        font-family: 'fira sans', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 400;
+        width: 50%;
+        border-radius: 50px;
+    }
+
+    label {
+        color: #000;
+        font-weight: 500;
+        font-size: 0.9rem;
     }
 
 @media only screen and (max-width: 375px) {
@@ -446,14 +476,16 @@ main {
         max-width: 375px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 0.5rem;
+        justify-content: center;
+        gap: 1rem;
     }
 
     .cardimg {
         width: 100px;
         height: 100px;
-        padding-top: 50px;
+        display: flex;
+        top: 10px;
+        padding: 0;
     }
 
     .smalcard-text {
@@ -515,8 +547,9 @@ main {
     }
 
     .container {
-        display: flex;
         width: 343px;
+        height: 430px;
+        padding-bottom: 3px;
     }
 
     .content {
@@ -526,5 +559,23 @@ main {
         margin: 0 auto;
         left: 60px;
         top: 25px;
+    }
+
+    .infohead {
+        color: #222; 
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    .subheader-info {
+        color: rgba(34, 34, 34, 0.80); 
+        line-height: 3rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .information {
+        padding: 0;
+        bottom: 1px;
     }
     }
