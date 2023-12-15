@@ -162,7 +162,6 @@ main {
     display: grid;
     grid-template-columns: repeat(1, 1rf);
     gap: 2rem;
-    min-width: 75rem;
     margin: 0 auto;
     font-family: 'fira sans', sans-serif;
 }
@@ -562,6 +561,7 @@ main {
     }
 
     .content {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
